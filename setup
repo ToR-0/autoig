@@ -37,15 +37,15 @@ echo " "
 apt-get update > /dev/null 2>&1
 apt-get upgrade > /dev/null 2>&1
 echo -e "             \e[37mYOUR INTERNET CONNECTION\e[91m IS SLOW PLEASE WAIT....!\e[0m"
-pkg install git > /dev/null 2>&1
-pkg install zip > /dev/null 2>&1
-pkg install mpv > /dev/null 2>&1
-pkg install wget > /dev/null 2>&1
-pkg install openssh > /dev/null 2>&1
-pkg install python > /dev/null 2>&1
-pkg install python2 > /dev/null 2>&1
-pkg install openssl-tool > /dev/null 2>&1 
-pkg install php > /dev/null 2>&1
+pkg install git -y > /dev/null 2>&1
+pkg install zip -y > /dev/null 2>&1
+pkg install mpv -y > /dev/null 2>&1
+pkg install wget -y > /dev/null 2>&1
+pkg install openssh -y > /dev/null 2>&1
+pkg install python -y > /dev/null 2>&1
+pkg install python2 -y > /dev/null 2>&1
+pkg install openssl-tool -y > /dev/null 2>&1 
+pkg install php -y > /dev/null 2>&1
 pip install lolcat > /dev/null 2>&1
 clear
 am start -a android.intent.action.VIEW -d https://bit.ly/nhytchannel > /dev/null 2>&1
